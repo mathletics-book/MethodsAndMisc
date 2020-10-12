@@ -55,8 +55,8 @@ plt.show()
 
 #prior 
 
-print integrate.quad(prior, float(sys.argv[3]), float(sys.argv[4]))[0]
+print(integrate.quad(prior, float(sys.argv[3]), float(sys.argv[4]))[0])
 
 # posterior
 
-print integrate.quad(post, float(sys.argv[3]), float(sys.argv[4]))[0]
+print(integrate.quad(post, float(sys.argv[3]), float(sys.argv[4]))[0])
